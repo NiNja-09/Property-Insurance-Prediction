@@ -1,0 +1,42 @@
+QUOTE_DATE: Day where the quotation was made
+COVER_START: Beginning of the cover payment
+BUS_USE: Commercial use indicator
+AD_BUILDINGS: Building coverage - Self damage
+RISK_RATED_AREA_B: Geographical Classification of Risk - Building
+SUM_INSURED_BUILDINGS: Assured Sum - Building
+NCD_GRANTED_YEARS_B: Bonus Malus - Building
+AD_CONTENTS: Coverage of personal items - Self Damage
+RISK_RATED_AREA_C: Geographical Classification of Risk - Personal Objects
+SUM_INSURED_CONTENTS: Assured Sum - Personal Items
+NCD_GRANTED_YEARS_C: Malus Bonus - Personal Items
+CONTENTS_COVER: Coverage - Personal Objects indicator
+BUILDINGS_COVER: Cover - Building indicator
+SPEC_SUM_INSURED: Assured Sum - Valuable Personal Property
+SPEC_ITEM_PREM: Premium - Personal valuable items
+SEC_DISC_REQ: Reduction of premium for security
+SUBSIDENCE: Subsidence indicator (relative downwards motion of the surface )
+
+P1_EMP_STATUS: Client's professional status
+P1_DOB: Date of birth of the client
+P1_MAR_STATUS: Marital status of the client
+P1_POLICY_REFUSED: Policy Emission Denial Indicator
+P1_GENDER: customer sex
+
+APPR_ALARM: Appropriate alarm
+APPR_LOCKS: Appropriate lock
+ROOF_CONSTRUCTION: Code of the type of construction of the roof
+WALL_CONSTRUCTION: Code of the type of wall construction
+FLOODING: House susceptible to floods
+SAFE_INSTALLED: Safe installs
+BEDROOMS: Number of bedrooms
+LISTED: National Heritage Building
+MAX_DAYS_UNOCC: Number of days unoccupied
+NEIGH_WATCH: Vigils of proximity present
+OCC_STATUS: Occupancy status
+OWNERSHIP_TYPE: Type of membership
+PAYING_GUESTS: Presence of paying guests
+PROP_TYPE: Type of property
+YEARBUILT: Year of construction
+PAYMENT_METHOD: Method of payment
+PAYMENT_FREQUENCY: Frequency of payment
+ANNUAL_PREMIUM: Premium amount
