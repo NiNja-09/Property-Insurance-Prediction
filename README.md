@@ -1,21 +1,39 @@
-# Predictive Modelling for Property Insurance
+# Property Insurance Premium Prediction
+
+![banner-home-insurance-1 (3)](https://github.com/ninadpatil09/Property-Insurance-Premium-Prediction/assets/60342946/856354d6-3a04-49b1-9a3a-c9bb667aa1fa)
+
+## Overview
+This project aims to predict property insurance premiums using machine learning techniques. The dataset consists of various features related to insurance policies and properties. The goal is to build models that can accurately predict the annual premium based on these features.
 
 It focuses on predicting property insurance premiums, specifically targeting home insurance premiums. Property insurance plays a crucial role in safeguarding homeowners against financial loss due to unforeseen events such as natural disasters, accidents, or theft. Accurately predicting insurance premiums is essential for insurance companies to appropriately price their policies and for homeowners to make informed decisions about their coverage.
 
 
-The dataset has been preprocessed to handle missing values, encode categorical variables, and normalize numerical features to ensure compatibility with machine learning models.
+## Data Preprocessing
+  - Handling Missing Values: Rows with missing values in certain columns were dropped. Missing values in other columns were imputed using appropriate methods.
+  - Feature Engineering: New features such as client age and property age were created based on existing date columns.
+  - Encoding Categorical Variables: Categorical variables were encoded using one-hot encoding.
+  - Standardizing Numerical Features: Numerical features were standardized to bring them to a similar scale.
 
-The project employs machine learning techniques to predict home insurance premiums based on the provided dataset. The following steps were followed:
+## Model Training
+Several regression models were trained and evaluated for their performance in predicting insurance premiums:
+- Decision Tree Regression
+ - Support Vector Regression (SVR)
+ - Gradient Boosting Regression
+ - Random Forest Regression
+ - XGBoost Regression
+ - LightGBM Regression
 
-1. Exploratory Data Analysis (EDA): Conducted an exploratory analysis of the dataset to gain insights into the distribution of features, identify correlations, and detect outliers.
+## Model Evaluation
+The performance of each model was evaluated using the following metrics:
+ - Mean Absolute Error (MAE)
+ - Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+ - R-squared Score (R^2)
 
-2. Feature Engineering: Derived new features or transformed existing features to enhance the predictive power of the model. It include creating interaction terms, binning numerical variables, or encoding categorical variables appropriately.
+## Results
+Among the models evaluated, XGBoost and LightGBM demonstrated the best performance in terms of lower MAE, MSE, RMSE, and higher R^2 score. Further, hyperparameter tuning using grid search and cross-validation was performed for XGBoost and LightGBM, resulting in improved performance.
 
-3. Model Selection: Evaluated various machine learning algorithms suitable for regression tasks, such as decision trees, random forests, gradient boosting, and XGBoost. Model selection was based on performance metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared.
+## Conclusion
+This project illustrates the utilization of machine learning methods for the prediction of property insurance premiums. The top-performing models, namely XGBoost and LightGBM, exhibit strong potential in assisting insurance firms to precisely predict insurance premiums, thereby refining risk evaluation and pricing strategies.
 
-4. Model Training: Split the dataset into training and testing sets to train the selected models. Employed techniques such as cross-validation to tune hyperparameters and prevent overfitting.
-
-5. Model Evaluation: Assessed the performance of trained models using evaluation metrics on the test dataset. Compared the performance of different models and selected the best-performing one for deployment.
-
-### Conclusion
-Property insurance premium prediction, particularly for home insurance, is a critical task that involves analyzing various factors to accurately estimate the cost of coverage. By leveraging machine learning techniques and appropriate data analysis, insurance companies can enhance their pricing strategies and offer competitive premiums while ensuring adequate coverage for homeowners. This project demonstrates the application of predictive modeling in the insurance domain and provides a framework for future research and development in this area.
+Estimating property insurance premiums, particularly for home insurance, is a pivotal undertaking involving comprehensive analysis of diverse factors to ensure accurate coverage cost assessment. By harnessing machine learning methodologies and adept data analysis, insurance enterprises can optimize their pricing strategies, offering competitive premiums while maintaining adequate coverage for homeowners.
